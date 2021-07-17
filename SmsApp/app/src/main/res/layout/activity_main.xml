@@ -7,6 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/aladin"
+        android:gravity="center"
+        android:text="Message received By \n Rashika"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+
 
 
 </LinearLayout>

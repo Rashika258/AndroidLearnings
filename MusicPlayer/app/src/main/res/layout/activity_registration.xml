@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    tools:context=".RegistrationActivity">
+
+
+    <TextView
+        android:id="@+id/register_head_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:textAlignment="textStart"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/iconn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/register_head_textview"
+        android:src="@drawable/musicnote"
+        tools:ignore="InvalidId,MissingConstraints"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconn"
+        android:background="@drawable/input_text"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textStyle="normal"
+        android:hint="Enter email address"
+        android:textColorHint="@color/white"
+        android:layout_marginRight="20dp"
+        tools:ignore="InvalidId" />
+
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_email"
+        android:background="@drawable/input_text"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textStyle="normal"
+        android:hint="Enter name"
+        android:textColorHint="@color/white"
+        android:layout_marginRight="20dp"
+        tools:ignore="InvalidId" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_text"
+        android:fontFamily="monospace"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/userLoginTv"
+        android:layout_below="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login here"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userLoginTv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_background"
+        android:fontFamily="@font/robotoregular"
+        android:padding="20dp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

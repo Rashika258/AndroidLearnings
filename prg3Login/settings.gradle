@@ -1,0 +1,2 @@
+rootProject.name = "prg3Login"
+include ':app'

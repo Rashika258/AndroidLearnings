@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3839c9f-327f-4c06-be30-7340811cb98c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DialerApp/app/src/main/res/font/amarante.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DialerApp/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DialerApp/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MediaPlayer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPlayer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicPlayer/app/src/main/res/drawable/ic_baseline_library_music_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prg6XmlAndJson/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/drawable/app_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/font/aclonica.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MusicPlayer/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicPlayer/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MusicPlayer/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicPlayer/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MusicPlayer/app/src/main/java/com/example/musicplayer/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicPlayer/app/src/main/java/com/example/musicplayer/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MusicPlayer/app/src/main/res/layout/activity_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicPlayer/app/src/main/res/layout/activity_welcome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScientificCalc" beforeDir="false" afterPath="$PROJECT_DIR$/../ScientificCalc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleAndroidCalculator" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleAndroidCalculator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/java/com/example/prg6xmlandjson/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/java/com/example/prg6xmlandjson/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/java/com/example/prg6xmlandjson/ViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/java/com/example/prg6xmlandjson/ViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/layout/activity_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/layout/activity_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values/themes.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1vhu5nlrrPl9KfgrdzeMZt0bYmt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3839c9f-327f-4c06-be30-7340811cb98c" name="Default Changelist" comment="" />
+      <created>1627026518981</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627026518981</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1627026879171">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1627026879171" />
+  </component>
+</project>

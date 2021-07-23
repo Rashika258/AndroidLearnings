@@ -1,70 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/app_background"
     tools:context=".ViewActivity">
-
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:paddingTop="50dp"
-        android:layout_margin="50dp"
+        android:fontFamily="@font/aclonica"
+        android:text="PARSING XML \nAND JSON"
         android:textAlignment="center"
-        android:text="XML and JSON parser"
-        android:textSize="40dp"
-        android:fontFamily="cursive"
-        android:textColor="@color/purple_500"
-        />
+        android:textColor="#FFE3E3"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148"
+        android:gravity="center_horizontal" />
 
     <TextView
-        android:id="@+id/lblXmlData"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="30dp"
-        android:layout_marginLeft="20dp"
         android:text="XML DATA"
-        android:textSize="20dp"
-        android:fontFamily="monospace"
-        android:textColor="@color/purple_500"
-        />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="30dp"
-        android:layout_marginLeft="20dp"
-        android:text="XML Data"
-        android:textSize="20dp"
-        android:fontFamily="monospace"
-        android:textColor="@color/purple_500"
-        />
-
-    <TextView
-        android:id="@+id/lblJsonData"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="30dp"
-        android:layout_marginLeft="20dp"
-        android:fontFamily="monospace"
-        android:text="JSON DATA"
-        android:textColor="@color/purple_500"
-        android:textSize="20dp" />
+        android:textColor="#FFA0A0"
+        android:textSize="15sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="30dp"
-        android:layout_marginLeft="20dp"
-        android:fontFamily="monospace"
-        android:text="JSON Data"
-        android:textColor="@color/purple_500"
-        android:textSize="20dp" />
+        android:text="JSON DATA"
+        android:textColor="#FFA0A0"
+        android:textSize="15sp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/jsondata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Json Data"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:fontFamily="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+
+    <TextView
+        android:id="@+id/xmldata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XML Data"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:fontFamily="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
+</androidx.constraintlayout.widget.ConstraintLayout>

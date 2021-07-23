@@ -29,4 +29,8 @@
         android:textColor="@color/white"
         android:textSize="30dp"
         />
+
+    <Imageview>
+
+    </Imageview>
 </RelativeLayout>

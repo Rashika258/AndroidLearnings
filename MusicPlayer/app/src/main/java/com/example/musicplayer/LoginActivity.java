@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
     FirebaseUser user=firebaseAuth.getCurrentUser();
     if(user != null) {
         finish();
-        startActivity(new Intent(LoginActivity.this, WelcomeActivity.class));
+        startActivity(new Intent(LoginActivity.this, MusicLibActivity.class));
     }
 
         userRegistration.setOnClickListener(new View.OnClickListener() {
@@ -89,7 +89,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onComplete(@NonNull @NotNull Task<AuthResult> task) {
               if(task.isSuccessful()) {
                   progressDialog.dismiss();
-                  startActivity(new Intent(LoginActivity.this, WelcomeActivity.class));
+                  startActivity(new Intent(LoginActivity.this, MusicLibActivity.class));
                   Toast.makeText(LoginActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
               } else {
                   Toast.makeText(LoginActivity.this, "Login failed", Toast.LENGTH_SHORT).show();

@@ -65,9 +65,9 @@ public class PlayingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playing);
 
-        getSupportActionBar().setTitle("WynkZeek");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+//        getSupportActionBar().setTitle("WynkZeek");
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         btnPrevious=findViewById(R.id.btnPrevious);
         btnNext=findViewById(R.id.btnPrevious);

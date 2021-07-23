@@ -18,13 +18,13 @@ public class SplashActivity extends AppCompatActivity {
 
     Animation DownToTop,Fade;
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if(item.getItemId()==android.R.id.home){
-            onBackPressed();
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//        if(item.getItemId()==android.R.id.home){
+//            onBackPressed();
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
 
 
@@ -38,9 +38,9 @@ public class SplashActivity extends AppCompatActivity {
         tv=(TextView)findViewById(R.id.tag);
         textView=(TextView)findViewById(R.id.app_title);
 
-        getSupportActionBar().setTitle("WynkZeek");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+//        getSupportActionBar().setTitle("WynkZeek");
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayShowHomeEnabled(true);
 //
 //        Typeface type = Typeface.createFromAsset(getAssets(),"fonts/Handle-Regular.ttf");
 //        textView.setTypeface(type);

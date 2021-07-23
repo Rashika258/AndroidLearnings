@@ -24,11 +24,11 @@
             android:ellipsize="marquee"
             android:fontFamily="@font/artifika"
             android:marqueeRepeatLimit="marquee_forever"
-            android:textColor="#91091E"
             android:padding="10dp"
             android:singleLine="true"
             android:text="New song is loading"
             android:textAlignment="center"
+            android:textColor="#91091E"
             android:textSize="25dp"
             android:textStyle="bold" />
         <ImageView
@@ -146,12 +146,12 @@
     <com.gauravk.audiovisualizer.visualizer.BarVisualizer
         android:id="@+id/wave"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="300dp"
         app:avColor="#4F0E0E"
         app:avDensity="0.3"
         app:avSpeed="normal"
         app:avType="outline"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="5dp"
         app:avWidth="20dp" />
 
 </LinearLayout>

@@ -3,33 +3,36 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f3839c9f-327f-4c06-be30-7340811cb98c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DialerApp/app/src/main/res/font/amarante.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DialerApp/app/src/main/res/values/font_certs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DialerApp/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MediaPlayer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MusicPlayer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MusicPlayer/app/src/main/res/drawable/ic_baseline_library_music_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prg6XmlAndJson/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/drawable/app_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/font/aclonica.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values/font_certs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicPlayer/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicPlayer/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicPlayer/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicPlayer/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicPlayer/app/src/main/java/com/example/musicplayer/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicPlayer/app/src/main/java/com/example/musicplayer/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MusicPlayer/app/src/main/res/layout/activity_welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MusicPlayer/app/src/main/res/layout/activity_welcome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/PlayingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/PlayingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/drawable/list_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/drawable/list_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/layout/activity_playing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/layout/activity_playing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/layout/list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/layout/list_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyApplication" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ScientificCalc" beforeDir="false" afterPath="$PROJECT_DIR$/../ScientificCalc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleAndroidCalculator" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleAndroidCalculator" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/java/com/example/prg6xmlandjson/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/java/com/example/prg6xmlandjson/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/java/com/example/prg6xmlandjson/ViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/java/com/example/prg6xmlandjson/ViewActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/layout/activity_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/layout/activity_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prg6XmlAndJson/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +64,17 @@
       <updated>1627026518981</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1627026879171">

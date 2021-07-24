@@ -23,13 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3839c9f-327f-4c06-be30-7340811cb98c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/PlayingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/PlayingActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/java/com/example/mplayerwynkzeek/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/drawable/list_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/drawable/list_bg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/layout/activity_playing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/layout/activity_playing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/layout/list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MPlayerWynkZeek/app/src/main/res/layout/list_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MyApplication" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ScientificCalc" beforeDir="false" afterPath="$PROJECT_DIR$/../ScientificCalc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleAndroidCalculator" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleAndroidCalculator" afterDir="false" />

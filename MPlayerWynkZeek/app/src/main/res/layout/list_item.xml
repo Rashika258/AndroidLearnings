@@ -7,11 +7,15 @@
     android:layout_marginStart="8dp"
     android:elevation="8dp"
     >
+
+    <!--CardView is a new widget in Android that can be used to display any sort of data by providing a rounded corner layout along with a specific elevation. CardView is the view that can display views on top of each other. The main usage of CardView is that it helps to give a rich feel and look to the UI design. This widget can be easily seen in many different Android Apps. CardView can be used for creating items in listview or inside Recycler View. The best part about CardView is that it extends Framelayout and it can be displayed on all platforms of Android-->
+
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="8dp"
     android:background="@drawable/list_bg">
+
 <ImageView
     android:layout_width="45dp"
     android:layout_height="45dp"

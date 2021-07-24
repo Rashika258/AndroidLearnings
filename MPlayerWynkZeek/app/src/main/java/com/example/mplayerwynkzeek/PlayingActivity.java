@@ -85,19 +85,29 @@ public class PlayingActivity extends AppCompatActivity {
 
         imageView=findViewById(R.id.imgView);
 
+        //starts playing by default
         if(mediaPlayer != null) {
+            //Successful invoke of this method in a valid state transfers the object to the Started state. Calling this method in an invalid state transfers the object to the Error state.
             mediaPlayer.start();
+            //After release(), the object is no longer available.
             mediaPlayer.release();
         }
 
         Intent intent=getIntent();
+        //to get extra data that is passed along with intent bundle is used
         Bundle bundle=intent.getExtras();
 
+        //songs, songname and pos are received from the main activity
         mySongs=(ArrayList)bundle.getParcelableArrayList("songs");
+
         String sName=intent.getStringExtra("songname");
+        //position is integer value
         position=bundle.getInt("pos",0);
+//        txtSongName is txtView
         txtSongName.setSelected(true);
+        //parses the given encoded uri string
         Uri uri= Uri.parse(mySongs.get(position).toString());
+        //songName is string
         songName=mySongs.get(position).getName();
         txtSongName.setText(songName);
 
@@ -129,6 +139,7 @@ public class PlayingActivity extends AppCompatActivity {
         updateSeekBar.start();
         seekMusicBar.getProgressDrawable().setColorFilter(getResources().getColor(purple_700), PorterDuff.Mode.MULTIPLY);
         seekMusicBar.getThumb().setColorFilter(getResources().getColor(purple_700), PorterDuff.Mode.SRC_IN);
+        
         seekMusicBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--RelativeLayout is a layout in which we can arrange views/widgets according to the position of other view/widgets. It is independent of horizontal and vertical view and we can arrange it according to once satisfaction-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,6 +8,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+    <!--A ListView is a type of AdapterView that displays a vertical list of scroll-able views and each view is placed one below the other. Using adapter, items are inserted into the list from an array or database. For displaying the items in the list method setAdaptor() is used. setAdaptor() method conjoins an adapter with the list.-->
+
 <ListView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,6 +18,5 @@
     android:padding="9dp"
     android:id="@+id/listView"
     android:dividerHeight="10.sp"/>
-
 
 </RelativeLayout>

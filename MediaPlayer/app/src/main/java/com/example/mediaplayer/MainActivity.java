@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 mediaPlayer.start();
                 //set max on seek bar
                 seekBar.setMax(mediaPlayer.getDuration());
-                //start handler
+                //start handler - this will call the runnable after 0 milliseconds
                 handler.postDelayed(runnable,0);
             }
         });
@@ -82,10 +82,11 @@ public class MainActivity extends AppCompatActivity {
                 btPlay.setVisibility(View.VISIBLE);
                 //pause media player
                 mediaPlayer.pause();
-                //stop handler
+                //stop handler - it calls the runnable interface itself to unregister all the callbacks
                 handler.removeCallbacks(runnable);
             }
         });
+
         btFf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -162,6 +163,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private String convertFormat(int duration) {
+        //5:03 --> 5min : (5:03)sec-(5)sec
         return String.format("%02d:%02d", TimeUnit.MILLISECONDS.toMinutes(duration), TimeUnit.MILLISECONDS.toSeconds(duration)- TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(duration)));
     }
 }

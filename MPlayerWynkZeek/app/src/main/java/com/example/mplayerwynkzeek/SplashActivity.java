@@ -26,8 +26,6 @@ public class SplashActivity extends AppCompatActivity {
 //        return super.onOptionsItemSelected(item);
 //    }
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

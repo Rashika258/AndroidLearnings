@@ -103,7 +103,7 @@ public class PlayingActivity extends AppCompatActivity {
         String sName=intent.getStringExtra("songname");
         //position is integer value
         position=bundle.getInt("pos",0);
-//        txtSongName is txtView
+        //txtSongName is txtView
         txtSongName.setSelected(true);
         //parses the given encoded uri string
         Uri uri= Uri.parse(mySongs.get(position).toString());
@@ -114,7 +114,7 @@ public class PlayingActivity extends AppCompatActivity {
         mediaPlayer=MediaPlayer.create(getApplicationContext(),uri);
         mediaPlayer.start();
 
-
+        //updateSeekBar is the thread to update
         updateSeekBar=new Thread() {
             @Override
             public void run() {
@@ -136,10 +136,12 @@ public class PlayingActivity extends AppCompatActivity {
         };
 
         seekMusicBar.setMax(mediaPlayer.getDuration());
+        //start the thread
         updateSeekBar.start();
+
         seekMusicBar.getProgressDrawable().setColorFilter(getResources().getColor(purple_700), PorterDuff.Mode.MULTIPLY);
         seekMusicBar.getThumb().setColorFilter(getResources().getColor(purple_700), PorterDuff.Mode.SRC_IN);
-        
+
         seekMusicBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
@@ -185,6 +187,7 @@ public class PlayingActivity extends AppCompatActivity {
                     btnPlay.setBackgroundResource(R.drawable.ic_baseline_pause_24);
                     mediaPlayer.start();
 
+                    //changes the position of object
                     TranslateAnimation moveAnim=new TranslateAnimation(-25,25,-25,25);
                     moveAnim.setInterpolator(new AccelerateInterpolator());
                     moveAnim.setDuration(600);
@@ -200,10 +203,12 @@ public class PlayingActivity extends AppCompatActivity {
         mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
+                //when one song is completed the next song will play
                 btnNext.performClick();
             }
         });
 
+        //Get the audio session id for the player used by this VideoView.
         int audioSessionId=mediaPlayer.getAudioSessionId();
         if(audioSessionId != -1) {
             barVisualizer.setAudioSessionId(audioSessionId);
@@ -266,12 +271,16 @@ public class PlayingActivity extends AppCompatActivity {
     }
 
     public void startAnimation(View view, Float degree) {
+        //subclass of ValueAnimator, provides support for animating properties on target objects. The constructors of this class take parameters to define the target object that will be animated as well as the name of the property that will be animated. Appropriate set/get functions are then determined internally and the animation will call these functions as necessary to animate the property.
+        //parameters-target, name, value
         ObjectAnimator objectAnimator=ObjectAnimator.ofFloat(imageView,"rotation",0f,degree);
         objectAnimator.setDuration(1000);
+
+        //This class plays a set of Animator objects in the specified order. Animations can be set up to play together, in sequence, or after a specified delay.
+        //playTogether Sets up this AnimatorSet to play all of the supplied animations at the same time.
         AnimatorSet animatorSet=new AnimatorSet();
         animatorSet.playTogether(objectAnimator);
         animatorSet.start();
-
     }
 
     public String createTime(int duration) {
@@ -280,13 +289,11 @@ public class PlayingActivity extends AppCompatActivity {
         int sec=duration/1000%60;
 
         time=time+min+":";
+        //two digits
         if(sec<10) {
             time+="0";
         }
         time+=sec;
         return time;
-
     }
-
-
 }

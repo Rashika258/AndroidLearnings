@@ -1,15 +1,15 @@
 package com.example.mplayerwynkzeek;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
+        import androidx.annotation.NonNull;
+        import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+        import android.content.Intent;
+        import android.os.Bundle;
+        import android.view.MenuItem;
+        import android.view.animation.Animation;
+        import android.view.animation.AnimationUtils;
+        import android.widget.LinearLayout;
+        import android.widget.TextView;
 
 public class SplashActivity extends AppCompatActivity {
 
